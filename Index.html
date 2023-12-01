@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Styles.css" />
+  </head>
+  <body>
+    <!--Start_Navbar-->
+    <div class="navbar">
+      <a href="/Index.html" class="link-home">
+        <img src="/Logo/Logo_Kecantikan.png" class="logo-navbar" />
+      </a>
+      <!--Kategori-->
+      <div class="kategori">
+        <button class="btn-kategori">Kategori</button>
+        <div class="dropdown-kategori">
+          <a href="#">Beauty Supplement</a>
+          <a href="#">Body</a>
+          <a href="#">Brands</a>
+          <a href="#">Fragrance</a>
+          <a href="#">Hair</a>
+          <a href="#">Make up</a>
+          <a href="#">Men’s Care</a>
+          <a href="#">Nails</a>
+          <a href="#">Skincare</a>
+          <a href="#">Tools</a>
+        </div>
+      </div>
+      <!--Search-->
+      <input type="text" placeholder="Cari sesuatu" />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="14"
+        height="14"
+        fill="currentColor"
+        class="icon-search-navbar"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+        />
+      </svg>
+      <!--Button Pesan-->
+      <a href="#" class="pesan"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          fill="currentColor"
+          class="icon-pesan-navbar"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
+          />
+        </svg>
+        Pesan
+      </a>
+      <!--Button Notifikasi-->
+      <a href="#" class="notifikasi">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          fill="currentColor"
+          class="icon-notifikasi-navbar"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6"
+          />
+        </svg>
+        Notifikasi
+      </a>
+      <!--Button Keranjang-->
+      <a href="#" class="link-keranjang">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          fill="currentColor"
+          class="icon-keranjang-navbar"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
+          />
+        </svg>
+        Keranjang
+      </a>
+      <!--Button Profile + Dropdown-->
+      <div class="profile">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          fill="currentColor"
+          class="icon-profile-navbar"
+          viewBox="0 0 16 16"
+        >
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+          <path
+            fill-rule="evenodd"
+            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+          />
+        </svg>
+        <button class="btn-profile">Gwenchana-yoo</button>
+        <div class="dropdown-profile">
+          <a href="/Profile/Index.html">Profile Saya</a>
+          <a href="/Login/Index.html">Keluar</a>
+        </div>
+      </div>
+    </div>
+    <!--End_Navbar-->
+    <div class="main">
+      <div class="gambar">
+        <img
+          class="BIOAQUA-brand-story"
+          src="/Foto_Produk/BIOAQUA Brand Story.jpg"
+        />
+      </div>
+      <p class="text-wrapper">
+        SOMETHINC Holyshield! UV Watery Gel SPF 50+ PA++++ - 15 gr
+      </p>
+      <img
+        class="SOMETHINC-holyshield"
+        src="img/SOMETHINC-holyshield-UV-watery-gel-SPF-50-PA-15-gr-1.png"
+      />
+      <p class="p">
+        BIOAQUA Diamond Blue Copper Peptide Ultimate Youthful Essence Toner
+      </p>
+      <img
+        class="BIOAQUA-banyaknya"
+        src="img/BIOAQUA-banyaknya-permasalahan-kulit-pada-kulit-rapuh-1.png"
+      />
+      <p class="text-wrapper-2">
+        Some By Mi Truecica Mineral Calming Tone up Sunblock
+      </p>
+      <img
+        class="some-by-mi-truecica"
+        src="img/some-by-mi-truecica-mineral-calming-tone-up-sunblock-1.png"
+      />
+      <div class="text-wrapper-3">Rekomendasi</div>
+      <img
+        class="SOMETHINC-calm-down"
+        src="img/SOMETHINC-calm-down-moisturizer.png"
+      />
+      <img
+        class="SOMETHINC-shot-down"
+        src="img/SOMETHINC-shot-down-your-acne.png"
+      />
+    </div>
+  </body>
+</html>
